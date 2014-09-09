@@ -1,0 +1,17 @@
+<alfresco-config>
+
+   <config evaluator="aspect-name" condition="aat:Transcriber">
+      <property-sheet>
+         <show-property name="aat:Hyphotesis" display-label-id="label.aat.Hyphotesis" read-only="true"/>      
+         <show-property name="aat:Words" display-label-id="label.aat.Words" read-only="true"/>
+         <show-property name="aat:Frames" display-label-id="label.aat.Frames" read-only="true"/>
+         </property-sheet>
+   </config>
+   
+   <config evaluator="string-compare" condition="Action Wizards">
+      <aspects>
+         <aspect name="aat:Transcriber" display-label-id="label.aat.Transcriber"/>
+         </aspects>
+   </config>
+   
+</alfresco-config>

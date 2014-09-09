@@ -1,0 +1,208 @@
+12:37:31,844 WARN  [org.apache.solr.core.SolrCore] [archive] Solr index directory '/Users/fegor/Documents/workspace/aat/solr/solr_home/archive/SpacesStore/index' doesn't exist. Creating new index...
+12:37:32,020 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+12:37:32,801 WARN  [org.apache.solr.core.SolrCore] [alfresco] Solr index directory '/Users/fegor/Documents/workspace/aat/solr/solr_home/workspace/SpacesStore/index' doesn't exist. Creating new index...
+12:37:32,811 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+12:37:45,177 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080001 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:37:45,177 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080000 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:38:00,031 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080002 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:38:00,033 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080003 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:38:15,024 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080004 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:38:15,025 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080005 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:38:30,029 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080006 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:38:30,029 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080007 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:38:45,027 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080008 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:38:45,028 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080009 GetModelsDiff return status is 404
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+12:44:56,365 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+12:44:57,176 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+13:26:45,034 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080001 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+13:26:45,034 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080000 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+13:31:22,792 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+13:31:23,622 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+13:46:31,031 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+13:46:31,885 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+14:07:51,846 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+14:07:52,712 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+14:17:21,815 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+14:17:22,667 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+14:28:14,365 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+14:28:15,223 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+16:15:30,038 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080001 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+16:15:30,038 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+org.alfresco.error.AlfrescoRuntimeException: 08080000 GetModelsDiff return status is 503
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1059)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+16:16:13,767 WARN  [org.apache.commons.httpclient.HttpConnection] HttpConnectionManager is null.  Connection cannot be released.
+16:16:13,768 WARN  [org.apache.commons.httpclient.HttpConnection] HttpConnectionManager is null.  Connection cannot be released.
+16:16:13,768 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.alfresco.httpclient.AbstractHttpClient.executeMethod(AbstractHttpClient.java:135)
+	at org.alfresco.httpclient.AbstractHttpClient.sendRemoteRequest(AbstractHttpClient.java:111)
+	at org.alfresco.httpclient.HttpClientFactory$DefaultHttpClient.sendRequest(HttpClientFactory.java:393)
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1056)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+16:16:14,778 WARN  [org.apache.commons.httpclient.HttpConnection] HttpConnectionManager is null.  Connection cannot be released.
+16:16:14,778 WARN  [org.apache.commons.httpclient.HttpConnection] HttpConnectionManager is null.  Connection cannot be released.
+16:16:14,778 ERROR [org.alfresco.solr.tracker.CoreTracker] Tracking failed
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.alfresco.httpclient.AbstractHttpClient.executeMethod(AbstractHttpClient.java:135)
+	at org.alfresco.httpclient.AbstractHttpClient.sendRemoteRequest(AbstractHttpClient.java:111)
+	at org.alfresco.httpclient.HttpClientFactory$DefaultHttpClient.sendRequest(HttpClientFactory.java:393)
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1056)
+	at org.alfresco.solr.tracker.CoreTracker.trackModels(CoreTracker.java:1897)
+	at org.alfresco.solr.tracker.CoreTracker.trackRepository(CoreTracker.java:1227)
+	at org.alfresco.solr.tracker.CoreTracker.updateIndex(CoreTracker.java:513)
+	at org.alfresco.solr.tracker.CoreTrackerJob.execute(CoreTrackerJob.java:45)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+16:20:15,713 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+16:20:16,579 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+17:24:59,500 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+17:25:00,380 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+17:45:37,777 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter
+17:45:38,635 WARN  [org.apache.solr.handler.component.SpellCheckComponent] No queryConverter defined, using default converter

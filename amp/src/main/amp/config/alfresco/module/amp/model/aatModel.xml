@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="aat:alfrescoAudioTranscriber" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+	<!-- Optional meta-data about the model -->
+	<description>Alfresco Audio Transcriber</description>
+	<author>Fernando González Ruano (twitter://fegorama)</author>
+	<version>1.0</version>
+	<imports>
+		<import uri="http://www.alfresco.org/model/dictionary/1.0"
+			prefix="d" />
+		<import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+	</imports>
+	<namespaces>
+		<namespace uri="http://www.fegorsoft.com/model/aat/1.0"
+			prefix="aat" />
+	</namespaces>
+	<aspects>
+		<aspect name="aat:Transcriber">
+			<title>Transcriber</title>
+			<properties>
+				<property name="aat:Hypothesis">
+					<type>d:text</type>
+					<mandatory>false</mandatory>
+					<multiple>true</multiple>
+					<index enabled="true">
+						<atomic>true</atomic>
+						<stored>false</stored>
+						<tokenised>true</tokenised>
+					</index>
+				</property>
+				<property name="aat:Words">
+					<type>d:text</type>
+					<mandatory>false</mandatory>
+					<multiple>true</multiple>
+					<index enabled="true">
+						<atomic>true</atomic>
+						<stored>false</stored>
+						<tokenised>true</tokenised>
+					</index>
+				</property>
+				<property name="aat:Frames">
+					<type>d:int</type>
+					<mandatory>false</mandatory>
+					<multiple>true</multiple>
+					<index enabled="false">
+					</index>
+				</property>
+			</properties>
+		</aspect>
+	</aspects>
+</model>
