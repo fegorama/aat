@@ -11,5 +11,6 @@
 /solr/solr_home
 /lib
 /*.log
+/*.log*
 .DS_Store
 
