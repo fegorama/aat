@@ -8,7 +8,7 @@
 		</property>
 		<property name="locations">
 			<list>
-				<value>classpath:alfresco/module/${project.artifactId}/extension/aat.properties</value>
+				<value>classpath:alfresco/extension/aat.properties</value>
 			</list>
 		</property>
 	</bean>

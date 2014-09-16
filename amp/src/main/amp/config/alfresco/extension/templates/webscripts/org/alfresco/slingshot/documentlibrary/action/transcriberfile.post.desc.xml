@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>TranscriberFile</shortname>
+  <description>TranscriberFile document(s)</description>
+  <url>/slingshot/doclib/action/transcriberfile/site/{site}/{container}</url>
+  <format default="json">argument</format>
+  <authentication>user</authentication>
+  <transaction>required</transaction>
+</webscript>

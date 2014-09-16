@@ -5,7 +5,7 @@
 	<bean id="aat.resourceBundle" class="org.alfresco.i18n.ResourceBundleBootstrapComponent">
 		<property name="resourceBundles">
 			<list>
-				<value>alfresco.module.${project.artifactId}.extension.aat-messages</value>
+				<value>alfresco.extension.aat-messages</value>
 			</list>
 		</property>
 	</bean>
