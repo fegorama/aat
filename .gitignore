@@ -1,6 +1,6 @@
-/.classpath
-/.project
-/.settings
+.classpath
+.project
+.settings
 /alf_data_dev
 /bin
 /amp/target
@@ -10,7 +10,9 @@
 /solr/target
 /solr/solr_home
 /lib
-/*.log
-/*.log*
+*.log
+*.log*
+*~
+*.swp
 .DS_Store
 
