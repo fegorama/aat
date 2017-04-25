@@ -1,0 +1,100 @@
+<extension>
+	<modules>
+		<module>
+			<id>alfresco-audio-transcriber-share-config-extension</id>
+			<version>1.0</version>
+			<auto-deploy>true</auto-deploy>
+			<configurations>
+				<config evaluator="string-compare" condition="DocumentLibrary">
+					<aspects>
+						<visible>
+							<aspect name="aat:Transcriber" />
+						</visible>
+
+						<addable>
+						</addable>
+
+						<removeable>
+						</removeable>
+					</aspects>
+				</config>
+
+				<config evaluator="aspect" condition="aat:Transcriber">
+					<forms>
+						<form>
+							<field-visibility>
+								<show id="aat:Hyphotesis" />
+								<!-- <show id="aat:Words" /> -->
+								<!-- <show id="aat:Frames" /> -->
+							</field-visibility>
+							<appearance>
+								<field id="aat:Hyphotesis" label-id="label.aat.Hyphotesis"
+									read-only="true" />
+								<field id="aat:Words" label-id="label.aat.Words"
+									read-only="true" />
+								<field id="aat:Frames" label-id="label.aat.Frames"
+									read-only="true" />
+							</appearance>
+						</form>
+					</forms>
+				</config>
+
+				<config evaluator="model-type" condition="cm:content">
+					<forms>
+						<!-- Search form -->
+						<form id="search">
+							<field-visibility>
+								<show id="aat:Hyphotesis" force="true" />
+							</field-visibility>
+							<appearance>
+								<field id="aat:Hyphotesis" label-id="label.aat.Hyphotesis" />
+							</appearance>
+						</form>
+					</forms>
+				</config>
+
+				<!-- Document Library Custom Code config section -->
+				<config evaluator="string-compare" condition="DocLibCustom">
+					<!-- Custom Code dependencies. Note: files specified in the "src" attribute 
+						resolve relative to the /share/res/ servlet context. -->
+
+					<dependencies>
+						<css src="/aat/components/documentlibrary/transcriberfile-action.css" />
+						<js src="/aat/components/documentlibrary/transcriberfile-action.js" />
+					</dependencies>
+				</config>
+
+				<!-- Document Library Actions config section -->
+				<config evaluator="string-compare" condition="DocLibActions">
+					<actions>
+						<action id="action-transcriber-file" type="javascript"
+							label="actions.document.transcriberfile">
+							<param name="function">onActionTranscriberFile</param>
+						</action>
+					</actions>
+
+					<!-- Action Group definitions -->
+					<actionGroups>
+						<actionGroup id="empty" />
+
+						<actionGroup id="document-browse">
+							<action index="380" id="action-transcriber-file" />
+						</actionGroup>
+
+						<actionGroup id="document-details">
+							<action index="400" id="action-transcriber-file" />
+						</actionGroup>
+
+						<actionGroup id="folder-browse">
+							<action index="400" id="action-transcriber-file" />
+						</actionGroup>
+
+						<actionGroup id="folder-details">
+							<action index="400" id="action-transcriber-file" />
+						</actionGroup>
+					</actionGroups>
+				</config>
+			</configurations>
+		</module>
+	</modules>
+</extension>
