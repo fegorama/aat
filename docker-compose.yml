@@ -1,0 +1,10 @@
+version: '3'
+services:
+ alfresco-sdk-3:
+  build: .
+  ports:
+   - 8080:8080
+   - 9999:9999
+  volumes:
+   - .:/usr/src/sdk
+   - ~/.m2/repository:/home/$USER/.m2/repository
