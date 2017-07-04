@@ -1,0 +1,78 @@
+2017-04-25 15:25:29,997 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 15:25:29,997 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 15:25:30,258 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2017-04-25 15:25:30,339 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 80 ms
+2017-04-25 15:32:45,855 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 15:32:45,855 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 15:32:46,100 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2017-04-25 15:32:46,165 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 64 ms
+2017-04-25 15:55:00,068 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+java.lang.IllegalStateException: Connection factory has been shutdown.
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager.doGetConnection(MultiThreadedHttpConnectionManager.java:463)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager.getConnectionWithTimeout(MultiThreadedHttpConnectionManager.java:416)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:153)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.alfresco.httpclient.AbstractHttpClient.executeMethod(AbstractHttpClient.java:135)
+	at org.alfresco.httpclient.AbstractHttpClient.sendRemoteRequest(AbstractHttpClient.java:111)
+	at org.alfresco.httpclient.HttpClientFactory$DefaultHttpClient.sendRequest(HttpClientFactory.java:430)
+	at org.alfresco.solr.client.SOLRAPIClient.getAclChangeSets(SOLRAPIClient.java:165)
+	at org.alfresco.solr.tracker.AclTracker.checkRepoAndIndexConsistency(AclTracker.java:354)
+	at org.alfresco.solr.tracker.AclTracker.trackRepository(AclTracker.java:320)
+	at org.alfresco.solr.tracker.AclTracker.doTrack(AclTracker.java:111)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:190)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:54)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2017-04-25 15:55:00,073 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+java.lang.IllegalStateException: Connection factory has been shutdown.
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager.doGetConnection(MultiThreadedHttpConnectionManager.java:463)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager.getConnectionWithTimeout(MultiThreadedHttpConnectionManager.java:416)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:153)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.alfresco.httpclient.AbstractHttpClient.executeMethod(AbstractHttpClient.java:135)
+	at org.alfresco.httpclient.AbstractHttpClient.sendRemoteRequest(AbstractHttpClient.java:111)
+	at org.alfresco.httpclient.HttpClientFactory$DefaultHttpClient.sendRequest(HttpClientFactory.java:430)
+	at org.alfresco.solr.client.SOLRAPIClient.getModelsDiff(SOLRAPIClient.java:1178)
+	at org.alfresco.solr.tracker.ModelTracker.trackModelsImpl(ModelTracker.java:256)
+	at org.alfresco.solr.tracker.ModelTracker.trackModels(ModelTracker.java:228)
+	at org.alfresco.solr.tracker.ModelTracker.doTrack(ModelTracker.java:174)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:190)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:54)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2017-04-25 15:55:00,088 ERROR [org.alfresco.solr.tracker.AbstractTracker] Tracking failed
+java.lang.IllegalStateException: Connection factory has been shutdown.
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager.doGetConnection(MultiThreadedHttpConnectionManager.java:463)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager.getConnectionWithTimeout(MultiThreadedHttpConnectionManager.java:416)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:153)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.alfresco.httpclient.AbstractHttpClient.executeMethod(AbstractHttpClient.java:135)
+	at org.alfresco.httpclient.AbstractHttpClient.sendRemoteRequest(AbstractHttpClient.java:111)
+	at org.alfresco.httpclient.HttpClientFactory$DefaultHttpClient.sendRequest(HttpClientFactory.java:430)
+	at org.alfresco.solr.client.SOLRAPIClient.getTransactions(SOLRAPIClient.java:485)
+	at org.alfresco.solr.client.SOLRAPIClient.getTransactions(SOLRAPIClient.java:392)
+	at org.alfresco.solr.tracker.MetadataTracker.checkRepoAndIndexConsistency(MetadataTracker.java:207)
+	at org.alfresco.solr.tracker.MetadataTracker.trackRepository(MetadataTracker.java:139)
+	at org.alfresco.solr.tracker.MetadataTracker.doTrack(MetadataTracker.java:110)
+	at org.alfresco.solr.tracker.AbstractTracker.track(AbstractTracker.java:190)
+	at org.alfresco.solr.tracker.TrackerJob.execute(TrackerJob.java:54)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:563)
+2017-04-25 16:01:47,732 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 16:01:47,732 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 16:01:48,015 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2017-04-25 16:14:57,907 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 16:14:57,907 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 16:14:58,159 WARN  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Solr suggester temp file found matching file pattern: WFSTInputIterator*.{input,sorted}, path: C:\Users\fegor\AppData\Local\Temp\WFSTInputIterator5359421526650625951.input
+2017-04-25 16:14:58,160 WARN  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Reported first suggester temp file found, others may exist.
+2017-04-25 16:14:58,164 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2017-04-25 16:14:58,809 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 644 ms
+2017-04-25 16:22:36,177 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 16:22:36,177 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Initializing SuggestComponent
+2017-04-25 16:22:36,433 WARN  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Solr suggester temp file found matching file pattern: WFSTInputIterator*.{input,sorted}, path: C:\Users\fegor\AppData\Local\Temp\WFSTInputIterator5359421526650625951.input
+2017-04-25 16:22:36,434 WARN  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Reported first suggester temp file found, others may exist.
+2017-04-25 16:22:36,439 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loading suggester index for: shingleBasedSuggestions
+2017-04-25 16:22:36,934 INFO  [org.alfresco.solr.component.AsyncBuildSuggestComponent] Loaded suggester shingleBasedSuggestions, took 494 ms
